@@ -1,0 +1,40 @@
+﻿生成启动时间为 2025/7/15 10:03:08。
+项目“X:\Study\小学期\计算机实践课程资料2025（for student）\04_Funcode平台(已经安装直接打开)\Funcode平台安装\FuncodeWin10\Games\deepspace\SourceCode\VCProject2012\VCProject2012\VCProject2012.vcxproj”在节点 2 上(build 个目标)。
+InitializeBuildStatus:
+  正在创建“Release\VCProject2012.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  x:\Study\Visual Studio 2010\VC\bin\CL.exe /c /I../../Header /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Src\LessonX.cpp ..\..\Src\Main.cpp
+  LessonX.cpp
+..\..\Src\LessonX.cpp(89): warning C4305: “参数”: 从“double”到“float”截断
+..\..\Src\LessonX.cpp(90): warning C4305: “参数”: 从“double”到“float”截断
+..\..\Src\LessonX.cpp(91): warning C4305: “参数”: 从“double”到“float”截断
+..\..\Src\LessonX.cpp(111): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          x:\Study\Visual Studio 2010\VC\include\stdio.h(371) : 参见“sprintf”的声明
+..\..\Src\LessonX.cpp(123): warning C4244: “参数”: 从“double”转换到“DWORD”，可能丢失数据
+  Main.cpp
+..\..\Src\Main.cpp(91): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          x:\Study\Visual Studio 2010\VC\include\stdio.h(371) : 参见“sprintf”的声明
+..\..\Src\Main.cpp(195): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+..\..\Src\Main.cpp(195): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+..\..\Src\Main.cpp(195): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+..\..\Src\Main.cpp(332): warning C4305: “参数”: 从“double”到“const float”截断
+..\..\Src\Main.cpp(332): warning C4305: “参数”: 从“double”到“const float”截断
+  正在生成代码...
+ResourceCompile:
+  所有输出均为最新。
+Link:
+  x:\Study\Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\Bin\Game.exe" /INCREMENTAL:NO /NOLOGO Winmm.lib ..\..\Src\CommonAPI_2010.Lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"Release\Game.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\Bin\Game.lib" /MACHINE:X86 Release\VCTemplate.res
+  Release\LessonX.obj
+  Release\Main.obj
+  Release\mylib.obj
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+CommonAPI_2010.Lib(CommonAPI.obj) : warning LNK4204: “X:\Study\小学期\计算机实践课程资料2025（for student）\04_Funcode平台(已经安装直接打开)\Funcode平台安装\FuncodeWin10\Games\deepspace\SourceCode\VCProject2012\VCProject2012\Release\vc100.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+  VCProject2012.vcxproj -> X:\Study\小学期\计算机实践课程资料2025（for student）\04_Funcode平台(已经安装直接打开)\Funcode平台安装\FuncodeWin10\Games\deepspace\SourceCode\VCProject2012\VCProject2012\..\..\..\Bin\Game.exe
+FinalizeBuildStatus:
+  正在删除文件“Release\VCProject2012.unsuccessfulbuild”。
+  正在对“Release\VCProject2012.lastbuildstate”执行 Touch 任务。
+已完成生成项目“X:\Study\小学期\计算机实践课程资料2025（for student）\04_Funcode平台(已经安装直接打开)\Funcode平台安装\FuncodeWin10\Games\deepspace\SourceCode\VCProject2012\VCProject2012\VCProject2012.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.88

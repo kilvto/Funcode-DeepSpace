@@ -1,0 +1,42 @@
+﻿生成启动时间为 2025/7/15 10:37:22。
+项目“X:\Study\小学期\计算机实践课程资料2025（for student）\04_Funcode平台(已经安装直接打开)\Funcode平台安装\FuncodeWin10\Games\deepspace\SourceCode\VCProject2012\VCProject2012\VCProject2012.vcxproj”在节点 2 上(build 个目标)。
+InitializeBuildStatus:
+  正在创建“Debug\VCProject2012.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  x:\Study\Visual Studio 2010\VC\bin\CL.exe /c /I../../Header /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Src\LessonX.cpp ..\..\Src\Main.cpp
+  Main.cpp
+x:\study\小学期\计算机实践课程资料2025（for student）\04_funcode平台(已经安装直接打开)\funcode平台安装\funcodewin10\games\deepspace\sourcecode\src\main.cpp(91): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          x:\study\visual studio 2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+x:\study\小学期\计算机实践课程资料2025（for student）\04_funcode平台(已经安装直接打开)\funcode平台安装\funcodewin10\games\deepspace\sourcecode\src\main.cpp(203): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+x:\study\小学期\计算机实践课程资料2025（for student）\04_funcode平台(已经安装直接打开)\funcode平台安装\funcodewin10\games\deepspace\sourcecode\src\main.cpp(203): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+x:\study\小学期\计算机实践课程资料2025（for student）\04_funcode平台(已经安装直接打开)\funcode平台安装\funcodewin10\games\deepspace\sourcecode\src\main.cpp(203): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+x:\study\小学期\计算机实践课程资料2025（for student）\04_funcode平台(已经安装直接打开)\funcode平台安装\funcodewin10\games\deepspace\sourcecode\src\main.cpp(382): warning C4305: “参数”: 从“double”到“const float”截断
+x:\study\小学期\计算机实践课程资料2025（for student）\04_funcode平台(已经安装直接打开)\funcode平台安装\funcodewin10\games\deepspace\sourcecode\src\main.cpp(382): warning C4305: “参数”: 从“double”到“const float”截断
+  LessonX.cpp
+x:\study\小学期\计算机实践课程资料2025（for student）\04_funcode平台(已经安装直接打开)\funcode平台安装\funcodewin10\games\deepspace\sourcecode\src\lessonx.cpp(89): warning C4305: “参数”: 从“double”到“float”截断
+x:\study\小学期\计算机实践课程资料2025（for student）\04_funcode平台(已经安装直接打开)\funcode平台安装\funcodewin10\games\deepspace\sourcecode\src\lessonx.cpp(90): warning C4305: “参数”: 从“double”到“float”截断
+x:\study\小学期\计算机实践课程资料2025（for student）\04_funcode平台(已经安装直接打开)\funcode平台安装\funcodewin10\games\deepspace\sourcecode\src\lessonx.cpp(91): warning C4305: “参数”: 从“double”到“float”截断
+x:\study\小学期\计算机实践课程资料2025（for student）\04_funcode平台(已经安装直接打开)\funcode平台安装\funcodewin10\games\deepspace\sourcecode\src\lessonx.cpp(111): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          x:\study\visual studio 2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+  正在生成代码...
+ResourceCompile:
+  所有输出均为最新。
+Link:
+  x:\Study\Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\Bin\Game.exe" /INCREMENTAL:NO /NOLOGO Winmm.lib ..\..\Src\CommonAPI_2010.Lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"Debug\Game.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\Bin\Game.lib" /MACHINE:X86 Debug\VCTemplate.res
+  Debug\LessonX.obj
+  Debug\Main.obj
+  Debug\mylib.obj
+LessonX.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/INCREMENTAL:NO”规范)
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+CommonAPI_2010.Lib(CommonAPI.obj) : warning LNK4204: “X:\Study\小学期\计算机实践课程资料2025（for student）\04_Funcode平台(已经安装直接打开)\Funcode平台安装\FuncodeWin10\Games\deepspace\SourceCode\VCProject2012\VCProject2012\Debug\vc100.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+  VCProject2012.vcxproj -> X:\Study\小学期\计算机实践课程资料2025（for student）\04_Funcode平台(已经安装直接打开)\Funcode平台安装\FuncodeWin10\Games\deepspace\SourceCode\VCProject2012\VCProject2012\..\..\..\Bin\Game.exe
+CopyFilesToOutputDirectory:
+  正在将文件从“Debug\Game.pdb”复制到“..\..\..\Bin\Game.pdb”。
+FinalizeBuildStatus:
+  正在删除文件“Debug\VCProject2012.unsuccessfulbuild”。
+  正在对“Debug\VCProject2012.lastbuildstate”执行 Touch 任务。
+已完成生成项目“X:\Study\小学期\计算机实践课程资料2025（for student）\04_Funcode平台(已经安装直接打开)\Funcode平台安装\FuncodeWin10\Games\deepspace\SourceCode\VCProject2012\VCProject2012\VCProject2012.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.10
