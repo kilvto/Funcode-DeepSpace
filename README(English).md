@@ -40,8 +40,6 @@ Funcode-DeepSpace/
 ├── Icon.rc # Resource file
 └── README.md # This documentation file
 
-yaml
-
 ---
 
 ## 🔧 How to Use
