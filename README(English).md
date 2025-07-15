@@ -51,6 +51,8 @@ Funcode-DeepSpace/
 
 3.Run the program to start playing.
 
+---
+
 💡 Technical Highlights
 Uses C language features such as function encapsulation, static variables, and variable scope.
 
@@ -58,11 +60,17 @@ Manages game state machines and physics checks (e.g., whether on ground, circuit
 
 Controls animation sequences and audio playback using macros and constants.
 
+---
+
 🧑‍💻 Author
 Kilvto
 
+---
+
 📜 License
 This project is for learning purposes only. Commercial use and unauthorized distribution are prohibited.
+
+---
 
 ❤️ Note
 Feel free to study this project to learn advanced FunCode platform techniques. Suggestions and improvements are welcome!
